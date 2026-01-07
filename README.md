@@ -253,7 +253,7 @@ Frontend will be available at: `http://localhost:3000`
 ## 📁 Project Structure
 
 ```
-assignment/
+greenhouse-ai/
 ├── api/                          # Backend (FastAPI)
 │   ├── main.py                   # Application entry point
 │   ├── routes/
