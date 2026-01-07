@@ -37,17 +37,6 @@ This system monitors greenhouse plant health using a **multi-modal AI approach**
 
 The AI provides confidence-scored assessments and triggers appropriate alerts when intervention is needed.
 
-### Live Demo Timeline
-
-The system simulates a full day of monitoring (09:00 - 12:15) with 12 progressive analyses:
-- **6 normal readings** (09:00 - 10:15)
-- **1 image quality failure** (11:00)
-- **1 missing sensor failure** (11:15)
-- **2 heat stress alerts** (11:30, 11:45)
-- **1 conflicting signals alert** (12:00)
-- **1 recovery to normal** (12:15)
-
----
 
 ## 🌾 Problem Statement
 
