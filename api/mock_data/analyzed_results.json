@@ -1,0 +1,287 @@
+[
+  {
+    "status": "normal",
+    "confidence": 0.9,
+    "reasoning": "Sensor readings are within normal ranges and consistent with visual assessment of healthy cherry tomatoes.",
+    "primary_concern": null,
+    "visual_assessment": "Healthy cherry tomato plants with ripe fruit and lush green foliage.",
+    "signals_agree": true,
+    "recommended_action": null,
+    "tokensUsed": 3315,
+    "cost": "0.000945",
+    "id": "analysis_1",
+    "timestamp": "2025-12-30T09:00:00Z",
+    "location": "Section A - Row 1",
+    "camera_id": "CAM-A1",
+    "sensorData": {
+      "temperature": 24,
+      "humidity": 65,
+      "co2": 420,
+      "soilMoisture": 55
+    },
+    "image": "healthy_plant.jpeg"
+  },
+  {
+    "status": "normal",
+    "confidence": 0.9,
+    "reasoning": "Temperature and humidity are within acceptable ranges, and visual assessment shows healthy cherry tomatoes. No signs of stress detected.",
+    "primary_concern": null,
+    "visual_assessment": "Healthy cherry tomatoes with vibrant color and no visible stress signs.",
+    "signals_agree": true,
+    "recommended_action": null,
+    "tokensUsed": 3321,
+    "cost": "0.000946",
+    "id": "analysis_2",
+    "timestamp": "2025-12-30T09:15:00Z",
+    "location": "Section A - Row 2",
+    "camera_id": "CAM-A2",
+    "sensorData": {
+      "temperature": 25,
+      "humidity": 68,
+      "co2": 430,
+      "soilMoisture": 52
+    },
+    "image": "healthy_plant.jpeg"
+  },
+  {
+    "status": "normal",
+    "confidence": 0.9,
+    "reasoning": "Sensor readings are stable and within normal ranges, and the visual assessment shows healthy cherry tomatoes.",
+    "primary_concern": null,
+    "visual_assessment": "Healthy cherry tomato plants with ripe fruit and lush green foliage.",
+    "signals_agree": true,
+    "recommended_action": null,
+    "tokensUsed": 3317,
+    "cost": "0.000945",
+    "id": "analysis_3",
+    "timestamp": "2025-12-30T09:30:00Z",
+    "location": "Section B - Row 1",
+    "camera_id": "CAM-B1",
+    "sensorData": {
+      "temperature": 23,
+      "humidity": 63,
+      "co2": 415,
+      "soilMoisture": 58
+    },
+    "image": "healthy_plant.jpeg"
+  },
+  {
+    "status": "normal",
+    "confidence": 0.9,
+    "reasoning": "Temperature and humidity are within acceptable ranges, and the visual assessment shows healthy cherry tomatoes. No signs of stress detected.",
+    "primary_concern": null,
+    "visual_assessment": "Healthy cherry tomatoes with vibrant color and no visible stress signs.",
+    "signals_agree": true,
+    "recommended_action": null,
+    "tokensUsed": 3322,
+    "cost": "0.000947",
+    "id": "analysis_4",
+    "timestamp": "2025-12-30T09:45:00Z",
+    "location": "Section B - Row 2",
+    "camera_id": "CAM-B2",
+    "sensorData": {
+      "temperature": 26,
+      "humidity": 67,
+      "co2": 425,
+      "soilMoisture": 54
+    },
+    "image": "healthy_plant.jpeg"
+  },
+  {
+    "status": "normal",
+    "confidence": 0.9,
+    "reasoning": "Sensor readings are stable and within normal ranges, and the visual assessment shows healthy cherry tomatoes.",
+    "primary_concern": null,
+    "visual_assessment": "Healthy cherry tomatoes with vibrant color and no visible stress signs.",
+    "signals_agree": true,
+    "recommended_action": null,
+    "tokensUsed": 3317,
+    "cost": "0.000945",
+    "id": "analysis_5",
+    "timestamp": "2025-12-30T10:00:00Z",
+    "location": "Section C - Row 1",
+    "camera_id": "CAM-C1",
+    "sensorData": {
+      "temperature": 24,
+      "humidity": 66,
+      "co2": 422,
+      "soilMoisture": 56
+    },
+    "image": "healthy_plant.jpeg"
+  },
+  {
+    "status": "normal",
+    "confidence": 0.9,
+    "reasoning": "Temperature and humidity are within acceptable ranges, and the visual assessment shows healthy cherry tomatoes. No signs of stress detected.",
+    "primary_concern": null,
+    "visual_assessment": "Healthy cherry tomato plants with ripe fruit, no visible stress indicators.",
+    "signals_agree": true,
+    "recommended_action": null,
+    "tokensUsed": 3323,
+    "cost": "0.000947",
+    "id": "analysis_6",
+    "timestamp": "2025-12-30T10:15:00Z",
+    "location": "Section C - Row 2",
+    "camera_id": "CAM-C2",
+    "sensorData": {
+      "temperature": 25,
+      "humidity": 64,
+      "co2": 418,
+      "soilMoisture": 57
+    },
+    "image": "healthy_plant.jpeg"
+  },
+  {
+    "status": "uncertain",
+    "confidence": 0.5,
+    "reasoning": "The visual data is blurry, making it difficult to assess plant health accurately. Sensor readings show normal conditions but the falling temperature trend raises concern.",
+    "primary_concern": "temperature",
+    "visual_assessment": "Image is blurry; unclear plant condition.",
+    "signals_agree": null,
+    "recommended_action": "Inspect plants closely for signs of stress.",
+    "tokensUsed": 3332,
+    "cost": "0.000950",
+    "id": "analysis_7",
+    "timestamp": "2025-12-30T11:00:00Z",
+    "location": "Section D - Row 1",
+    "camera_id": "CAM-D1",
+    "sensorData": {
+      "temperature": 24,
+      "humidity": 65,
+      "co2": 420,
+      "soilMoisture": 55
+    },
+    "image": "blurry_image.jpeg"
+  },
+  {
+    "status": "uncertain",
+    "confidence": 0.1,
+    "reasoning": "Missing temperature sensor data - cannot perform reliable analysis",
+    "visual_assessment": null,
+    "signals_agree": null,
+    "primary_concern": "sensors",
+    "recommended_action": "Restore temperature sensor and retry analysis",
+    "tokensUsed": 0,
+    "cost": "0.000000",
+    "id": "analysis_8",
+    "timestamp": "2025-12-30T11:15:00Z",
+    "location": "Section D - Row 2",
+    "camera_id": "CAM-D2",
+    "sensorData": {
+      "temperature": null,
+      "humidity": 65,
+      "co2": 420,
+      "soilMoisture": 55
+    },
+    "image": "healthy_plant.jpeg"
+  },
+  {
+    "status": "uncertain",
+    "confidence": 0.5,
+    "reasoning": "The temperature is significantly higher than the average, which may indicate stress, but the visual assessment shows some healthy fruit. Conflicting indicators create uncertainty.",
+    "primary_concern": "temperature",
+    "visual_assessment": "Plants show some healthy fruit but also signs of leaf stress.",
+    "signals_agree": false,
+    "recommended_action": "Check cooling systems and assess plant health further.",
+    "tokensUsed": 3338,
+    "cost": "0.000951",
+    "id": "analysis_9",
+    "timestamp": "2025-12-30T11:30:00Z",
+    "location": "Section E - Row 1",
+    "camera_id": "CAM-E1",
+    "sensorData": {
+      "temperature": 38,
+      "humidity": 45,
+      "co2": 480,
+      "soilMoisture": 42
+    },
+    "image": "heat_stressed_plant.jpeg",
+    "pagerAlert": {
+      "triggered": true,
+      "reason": "Critical temperature detected (38\u00b0C) - immediate cooling required to prevent crop damage",
+      "smsRecipient": "+31-6-1234-5678",
+      "callRecipient": "Head Greenhouse Operator",
+      "sentAt": "2025-12-30T11:30:05Z"
+    }
+  },
+  {
+    "status": "uncertain",
+    "confidence": 0.5,
+    "reasoning": "The temperature is significantly higher than the average, indicating potential heat stress, but the visual assessment shows healthy fruit. This creates a conflict.",
+    "primary_concern": "temperature",
+    "visual_assessment": "Plants show healthy fruit but some leaf browning.",
+    "signals_agree": false,
+    "recommended_action": "Check cooling systems and monitor plant health closely.",
+    "tokensUsed": 3334,
+    "cost": "0.000950",
+    "id": "analysis_10",
+    "timestamp": "2025-12-30T11:45:00Z",
+    "location": "Section E - Row 2",
+    "camera_id": "CAM-E2",
+    "sensorData": {
+      "temperature": 40,
+      "humidity": 42,
+      "co2": 490,
+      "soilMoisture": 38
+    },
+    "image": "heat_stressed_plant.jpeg",
+    "pagerAlert": {
+      "triggered": true,
+      "reason": "SEVERE temperature detected (40\u00b0C) - URGENT cooling action required, crop damage imminent",
+      "smsRecipient": "+31-6-1234-5678",
+      "callRecipient": "Head Greenhouse Operator",
+      "sentAt": "2025-12-30T11:45:05Z"
+    }
+  },
+  {
+    "status": "potential_anomaly",
+    "confidence": 0.7,
+    "reasoning": "Temperature is slightly above average, and the trend is falling, which may indicate stress. Visual assessment shows some yellowing leaves, suggesting potential nutrient or water issues.",
+    "primary_concern": "visual",
+    "visual_assessment": "Some yellowing leaves observed among healthy red tomatoes.",
+    "signals_agree": false,
+    "recommended_action": "Check nutrient levels and soil moisture.",
+    "tokensUsed": 3338,
+    "cost": "0.000951",
+    "id": "analysis_11",
+    "timestamp": "2025-12-30T12:00:00Z",
+    "location": "Section F - Row 1",
+    "camera_id": "CAM-F1",
+    "sensorData": {
+      "temperature": 24,
+      "humidity": 65,
+      "co2": 420,
+      "soilMoisture": 55
+    },
+    "image": "nutrient_deficient_plant.jpeg",
+    "pagerAlert": {
+      "triggered": true,
+      "reason": "Low confidence analysis - requires human inspection",
+      "smsRecipient": "+31-6-1234-5678",
+      "callRecipient": "Head Greenhouse Operator",
+      "sentAt": "2025-12-30T12:00:05Z"
+    }
+  },
+  {
+    "status": "normal",
+    "confidence": 0.9,
+    "reasoning": "Temperature and humidity are within acceptable ranges, and the visual assessment shows healthy cherry tomatoes. No signs of stress detected.",
+    "primary_concern": null,
+    "visual_assessment": "Healthy cherry tomatoes with vibrant color and no visible stress signs.",
+    "signals_agree": true,
+    "recommended_action": null,
+    "tokensUsed": 3322,
+    "cost": "0.000947",
+    "id": "analysis_12",
+    "timestamp": "2025-12-30T12:15:00Z",
+    "location": "Section F - Row 2",
+    "camera_id": "CAM-F2",
+    "sensorData": {
+      "temperature": 24,
+      "humidity": 66,
+      "co2": 422,
+      "soilMoisture": 56
+    },
+    "image": "healthy_plant.jpeg"
+  }
+]

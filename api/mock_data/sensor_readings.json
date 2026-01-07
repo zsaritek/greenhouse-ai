@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": "2025-12-29T10:00:00Z",
+    "temperature": 23.5,
+    "humidity": 64,
+    "co2": 415,
+    "soilMoisture": 56
+  },
+  {
+    "timestamp": "2025-12-29T12:00:00Z",
+    "temperature": 24.2,
+    "humidity": 62,
+    "co2": 420,
+    "soilMoisture": 55
+  },
+  {
+    "timestamp": "2025-12-29T14:00:00Z",
+    "temperature": 25.1,
+    "humidity": 61,
+    "co2": 425,
+    "soilMoisture": 54
+  },
+  {
+    "timestamp": "2025-12-29T16:00:00Z",
+    "temperature": 24.8,
+    "humidity": 63,
+    "co2": 422,
+    "soilMoisture": 55
+  },
+  {
+    "timestamp": "2025-12-29T18:00:00Z",
+    "temperature": 23.9,
+    "humidity": 65,
+    "co2": 418,
+    "soilMoisture": 56
+  },
+  {
+    "timestamp": "2025-12-29T20:00:00Z",
+    "temperature": 23.2,
+    "humidity": 66,
+    "co2": 415,
+    "soilMoisture": 57
+  },
+  {
+    "timestamp": "2025-12-29T22:00:00Z",
+    "temperature": 22.8,
+    "humidity": 67,
+    "co2": 412,
+    "soilMoisture": 58
+  },
+  {
+    "timestamp": "2025-12-30T00:00:00Z",
+    "temperature": 22.5,
+    "humidity": 68,
+    "co2": 410,
+    "soilMoisture": 58
+  },
+  {
+    "timestamp": "2025-12-30T02:00:00Z",
+    "temperature": 22.3,
+    "humidity": 69,
+    "co2": 408,
+    "soilMoisture": 59
+  },
+  {
+    "timestamp": "2025-12-30T04:00:00Z",
+    "temperature": 22.1,
+    "humidity": 69,
+    "co2": 407,
+    "soilMoisture": 59
+  },
+  {
+    "timestamp": "2025-12-30T06:00:00Z",
+    "temperature": 22.4,
+    "humidity": 68,
+    "co2": 410,
+    "soilMoisture": 58
+  },
+  {
+    "timestamp": "2025-12-30T08:00:00Z",
+    "temperature": 23.2,
+    "humidity": 66,
+    "co2": 415,
+    "soilMoisture": 57
+  }
+]
